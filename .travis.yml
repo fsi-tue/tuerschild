@@ -3,6 +3,6 @@
 # Test whether the LaTeX files compiles
 before_install:
 - sudo apt-get update && sudo apt-get install --no-install-recommends texlive-fonts-recommended
-  texlive-latex-extra texlive-fonts-extra texlive-latex-recommended dvipng
+  texlive-latex-extra texlive-fonts-extra texlive-latex-recommended dvipng texlive-font-utils
 script:
 - pdflatex tuerschild.tex
